@@ -1,0 +1,187 @@
+/*
+    Theme Name: Art of Loft
+    Description: Art of Loft
+    Version: 1.0
+    Author: Ivo Schwizer
+    Author URI: http://schwizerschlatter.com
+    Tags: No Tags
+*/
+
+/*
+    Color Theme: Art of Loft
+    Main Color Green: #1E1E1E;
+*/
+
+body {
+  background-color: #1E1E1E;
+  position:relative;
+}
+
+h1, h2, a {
+    color: #fff;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Arimo', sans-serif;
+    font-size: 15px;
+    line-height: 1.35;
+    letter-spacing: 0.8px;
+    text-align: left;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+    text-decoration: none;
+}
+
+
+/*----------------------------------
+    container
+-----------------------------------*/
+
+.container {
+    width: 100%;
+}
+
+.logo {
+  position: fixed;
+  margin: 0 5%;
+  top: 60px;
+  z-index: 100;
+  width: 90%;
+}
+
+.logo .kontakt {
+  float: right;
+}
+
+.first {
+  margin-top: 300px;
+}
+
+.projekt {
+  margin-bottom: 150px;
+}
+
+.projekt img {
+    position: relative;
+    width: 60%;
+    float: right;
+}
+
+.projekt h1, .projekt h2 {
+  width: 20%;
+  display: inline-block;
+}
+
+.right img {
+  margin-left: 40%;
+}
+.right h2 {
+    margin-left: 40%;
+}
+
+.center img {
+  margin: 0 20%;
+}
+.center h2 {
+  margin-left: 40%;
+}
+
+.full img {
+  width: 100%;
+}
+.full h2 {
+  margin-left: 40%;
+}
+
+.left img {
+  float: left;
+}
+.left h2 {
+    margin-left: 40%;
+}
+
+#footer {
+    margin: 0 0 60px 5%;
+}
+
+/*----------------------------------
+responsive ipad
+-----------------------------------*/
+
+@media only screen and (max-width: 850px) {
+  .logo {
+    top: 40px;
+  }
+
+  .projekt img {
+      position: relative;
+      width: 80%;
+      float: right;
+  }
+  .first {
+    margin-top: 280px;
+  }
+  .projekt h1, .projekt h2 {
+    width: 39%;
+    display: inline-block;
+  }
+
+  .right img {
+    margin-left: 20%;
+  }
+  .right h2 {
+    margin-left: 20%;
+  }
+
+  .center img {
+    margin: 0 10%;
+  }
+  .center h2 {
+    margin-left: 20%;
+  }
+
+  .full img {
+    width: 100%;
+  }
+  .full h2 {
+    margin-left: 20%;
+  }
+
+  .left img {
+    float: left;
+  }
+  .left h2 {
+      margin-left: 20%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .logo {
+    top: 20px;
+  }
+  .logo img {
+    width: 150px;
+  }
+  .projekt {
+    margin-bottom: 50px;
+  }
+
+  .first {
+    margin-top: 250px;
+  }
+  .projekt h1, .projekt h2 {
+    width: 80%;
+    display: inline-block;
+  }
+
+  .right h2,   .right h1,
+  .center h2, .center h1,
+  .full h2, .full h1,
+  .left h2, .left h1  {
+      margin-left: 20%;
+  }
+
+
+}
