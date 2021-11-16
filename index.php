@@ -6,74 +6,118 @@
 <!--<![endif]-->
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place#">
     <meta charset="utf-8">
-    <title>Art of Loft</title>
-    <meta name="description" content="Art of Loft">
+    <title>Spazierdienst</title>
+    <meta name="description" content="Spazierdienst">
     <?php include 'head.php'; ?>
 </head>
 
 <body>
     <section class="container">
       <div class="logo">
-        <a href=""><img src="img/artofloft-logo.svg" alt="Art of Loft Logo" width="180px" height="auto"></a>
-        <a class="kontakt" href="#footer" >Kontakt</a>
+        <a href=""><img src="img/hundelaeufer-spazierdienst-teufen-st-gallen-logo.svg" alt="hundelaeufer-spazierdienst-teufen-st-gallen-logo" width="180px" height="auto"></a>
+        <a class="kontakt" href="tel:0794707535" >Manuela Albrecht: 079 470 75 35</a>
       </div>
-      <article class="projekt right first">
-        <img src="img/art-of-loft-neubau-8-oeserigi-appenzell-innerhoden.jpg" alt="art-of-loft-neubau-8-oeserigi-appenzell-innerhoden" width="100%" height="auto">
-        <h2>Neubau<br>Realisation ab 2022</h2>
-        <h1>8 Öserigi, 8 MFH<br>Appenzell AI</h1>
-      </article>
-      <article class="projekt center">
-        <img src="img/art-of-loft-neubau-segnas.jpg" alt="art-of-loft-neubau-segnas" width="100%" height="auto">
-        <h2>Neubau<br>Realisation ab 2022</h2>
-        <h1>Chalet mit 4 WHG<br>Segnas GR</h1>
-      </article>
-      <article class="projekt full">
-        <img src="img/art-of-loft-neubau-polygon-bottighofen.jpg" alt="art-of-loft-neubau-polygon-bottighofen" width="100%" height="auto">
-        <h2>Neubau<br>Realisation ab 2022</h2>
-        <h1>Polygon, Gewerbebau<br>Bottighofen TG</h1>
-      </article>
-      <article class="projekt right">
-        <img src="img/art-of-loft-neubau-amriswil.jpg" alt="art-of-loft-neubau-amriswil" width="100%" height="auto">
-        <h2>Neubau<br>Realisation ab 2020</h2>
-        <h1>3 MFH<br>Amriswil TG</h1>
-      </article>
-      <article class="projekt center">
-        <img src="img/art-of-loft-studie-mfh-wattwil.jpg" alt="art-of-loft-studie-mfh-wattwil" width="100%" height="auto">
-        <h2>Studie<br>2020</h2>
-        <h1>MFH<br> Wattwil SG</h1>
-      </article>
-      <article class="projekt full">
-        <img src="img/art-of-loft-studie-villa-spanien.jpg" alt="art-of-loft-studie-villa-spanien" width="100%" height="auto">
-        <h2>Studie<br>2015</h2>
-        <h1>Villa<br>Spanien</h1>
-      </article>
-      <article class="projekt right">
-        <img src="img/art-of-loft-studie-herrliberg.jpg" alt="art-of-loft-studie-herrliberg" width="100%" height="auto">
-        <h2>Eingeladener Wettbewerb<br>Realisation 2019 abgeschlossen</h2>
-        <h1>Herrliberg ZH</h1>
-      </article>
-      <article class="projekt center">
-        <img src="img/art-of-loft-eingeladener-wettbewerb.jpg" alt="art-of-loft-eingeladener-wettbewerb" width="100%" height="auto">
-        <h2>Eingeladener Wettbewerb<br>2014</h2>
-        <h1>Ermatingen TG</h1>
+
+      <article class="start">
+        <img class="background" src="img/hundelaeufer-spazierdienst-teufen-st-gallen-hintergrund.svg" alt="hundelaeufer-spazierdienst-teufen-st-gallen-hintergrund">
+        <img class="background-dog" src="img/hundelaeufer-spazierdienst-teufen-st-gallen-frau-hunde.svg" alt="hundelaeufer-spazierdienst-teufen-st-gallen-frau-hunde">
+
+        <div class="start-content">
+          <h1>Spazierdienst</h1>
+          <p>Falls Sie nicht immer Zeit finden Ihrem Hund die nötige Bewegung und Beschäftigung zu geben, sind Sie bei mir genau richtig.</p>
+          <button id="test" type="button" name="button">Angebot</button>
+        </div>
       </article>
 
-      <div id="footer">
-        <h2 class="pw">
-            16.04.2022<br>
-            Relaunch<br>
-            neue Webseite<br><br>
-        </h2>
-        <h2>
-          <a target="_blank" href="https://www.google.ch/maps/place/Art+of+Loft/@47.4296178,9.3775603,17z/data=!3m1!4b1!4m5!3m4!1s0x479b1e4578691d93:0xb96068c2a06244e9!8m2!3d47.4296961!4d9.3798401">
-            Art of Loft AG<br>
-            Schützengartenweg 3<br>
-            9000 St.Gallen<br><br>
-          </a>
-          <a href="tel:0714140202">T 071 414 02 02</a><br>
-          <a href="mailto:t.von.allmen@art-of-loft.ch" target="_top">Mail</a><br>
-        </h2>
-      </div>
+      <article class="angebot" id="angebot">
+        <h1>Angebot</h1>
+        <p>Gerne lerne ich Sie und Ihren Hund kennen. Danach hole ich Ihren Hund bei jedem Wetter bei Ihnen ab gehe alleine oder in der Gruppe laufen. Danach bringe ich Ihren Hund müde und zufrieden nach Hause.
+        <br><br>
+        Ich sorge dafür, dass Ihr Hund bedürfnisgerecht ausgelastet wird. Ich mache je nach Wunsch und Bedürfnis Kopfarbeit, Grundgehorsam oder wir laufen einfach gemütlich durch den Wald. Ich passe mein Programm individuell auf Ihren Hund an, gross/ klein ob alt oder jung spielt für mich keine Rolle. Das Wohl der Hunde steht bei mir an erster Stelle.
+        <br><br>
+        Ich bin mit meinen Schulungen auf dem neusten Stand und arbeite mit keinen veralteten Methoden. Leinenruck oder Leinenzwick praktiziere ich nicht, denn diese Methoden sind keinesfalls effektiv.</p>
+        <img class="angebot-dog" src="img/hundelaeufer-spazierdienst-teufen-st-gallen-dog.svg" alt="hundelaeufer-spazierdienst-teufen-st-gallen-dog">
+      </article>
+
+      <article class="articlecontainer">
+          <div class="tabscontainer">
+              <div class="container25">
+                  <h1 class="one">Spazierdienst <strong>kurz</strong></h1>
+                  <p class="lauftext full">
+                      Ihr Hund wird versäubert und kommt für 30 Minuten an die Frische luft.
+                  </p>
+                  <p class="lauftext distanz">
+                      Umkreis Teufen AR bis 20 km
+                  </p>
+                  <p class="lauftext dauer">
+                      Dauer 30 min
+                  </p>
+                  <p class="lauftext chf">
+                      Kosten 20.- CHF
+                  </p>
+              </div>
+              <div class="container25">
+                  <h1 class="two">Spazierdienst <strong>Gruppe</strong></h1>
+                  <p class="lauftext full">
+                      Ihr Hund wird in der Gruppe (max 4 Hunde) trainiert. Kopfarbeit, Grundgehorsam oder wir laufen einfach gemütlich durch den Wald.
+                  </p>
+                  <p class="lauftext distanz">
+                      Umkreis Teufen AR bis 20 km
+                  </p>
+                  <p class="lauftext dauer">
+                      Dauer 75 min
+                  </p>
+                  <p class="lauftext chf">
+                      Kosten 30.- CHF
+                  </p>
+              </div>
+              <div class="container25">
+                  <h1 class="three">Spazierdienst <strong>einzeln</strong></h1>
+                  <p class="lauftext full">
+                      Ihr Hund bekommt die volle Aufmerksamkeit. Kopfarbeit, Grundgehorsam oder wir laufen einfach gemütlich durch den Wald.
+                  </p>
+                  <p class="lauftext distanz">
+                      Umkreis Teufen AR bis 20 km
+                  </p>
+                  <p class="lauftext dauer">
+                      Dauer 75 min
+                  </p>
+                  <p class="lauftext chf">
+                      Kosten 35.- CHF
+                  </p>
+
+              </div>
+          </div>
+          <p class="small">Die Hunde müssen mit allen nötigen Impfungen geimpft und Parasitenfrei sein. <br>
+            Nach jedem Dienst gebe ich Ihnen nach Wunsch ein fachliches Feedback ab.<br>
+            Abholservice: Pauschal bis 5 km im Preis inbegriffen, ab 5 km 50 Rp. Zuschlag pro km.
+          </p>
+      </article>
+
+      <article class="manu" id="manu">
+        <img src="img/hundelaeufer-spazierdienst-teufen-st-gallen-manu.png" alt="hundelaeufer-spazierdienst-teufen-st-gallen-manu">
+        <h1>Manuela Albrecht</h1>
+        <p>Gerne lerne ich Sie und Ihren Hund kennen. Danach hole ich Ihren Hund bei jedem Wetter bei Ihnen ab gehe alleine oder in der Gruppe laufen. Danach bringe ich Ihren Hund müde und zufrieden nach Hause.
+        <br><br>
+        Ich sorge dafür, dass Ihr Hund bedürfnisgerecht ausgelastet wird. Ich mache je nach Wunsch und Bedürfnis Kopfarbeit, Grundgehorsam oder wir laufen einfach gemütlich durch den Wald. Ich passe mein Programm individuell auf Ihren Hund an, gross/ klein ob alt oder jung spielt für mich keine Rolle. Das Wohl der Hunde steht bei mir an erster Stelle.
+        <br><br>
+        Ich bin mit meinen Schulungen auf dem neusten Stand und arbeite mit keinen veralteten Methoden. Leinenruck oder Leinenzwick praktiziere ich nicht, denn diese Methoden sind keinesfalls effektiv.
+        <br><br>
+        Ich freue mich auf Ihren Anruf oder E-Mail
+      </p>
+      </article>
+
+      <article class="imggalerie">
+        <img src="img/hundelaeufer-spazierdienst-teufen-st-gallen-01.jpg"
+        alt="hundelaeufer-spazierdienst-teufen-st-gallen">
+        <img src="img/hundelaeufer-spazierdienst-teufen-st-gallen-02.jpg"
+        alt="hundelaeufer-spazierdienst-teufen-st-gallen">
+        <img src="img/hundelaeufer-spazierdienst-teufen-st-gallen-03.jpg"
+        alt="hundelaeufer-spazierdienst-teufen-st-gallen">
+        <img src="img/hundelaeufer-spazierdienst-teufen-st-gallen-04.jpg"
+        alt="hundelaeufer-spazierdienst-teufen-st-gallen">
+      </article>
+
     </section>
 
     <script src="js/vendor/modernizr-3.6.0.min.js"></script>

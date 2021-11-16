@@ -1,30 +1,29 @@
 /*
-    Theme Name: Art of Loft
-    Description: Art of Loft
+    Theme Name: hundelaeuferin
+    Description: hundelaeuferin
     Version: 1.0
     Author: Ivo Schwizer
-    Author URI: http://schwizerschlatter.com
     Tags: No Tags
 */
 
 /*
-    Color Theme: Art of Loft
-    Main Color Green: #1E1E1E;
+    Color Theme: hundelaeuferin
+    Main Color Brown: #5A4650;
 */
 
 body {
-  background-color: #1E1E1E;
+  background-color: #FCF8F0;
   position:relative;
 }
 
-h1, h2, a {
-    color: #fff;
-    font-weight: 400;
+h1, p, a, button {
+    color: #5A4650;
+    font-weight: 600;
     font-style: normal;
-    font-family: 'Arimo', sans-serif;
-    font-size: 15px;
-    line-height: 1.35;
-    letter-spacing: 0.8px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 19px;
+    line-height: 1.3;
+    letter-spacing: 0.1px;
     text-align: left;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -33,6 +32,30 @@ h1, h2, a {
     -webkit-hyphens: auto;
     text-decoration: none;
 }
+
+h1 {
+  font-size: 60px;
+  font-weight: 400;
+}
+
+strong {
+  font-weight: 700;
+}
+
+button {
+	background-color:#D49F6C;
+  border: none;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	padding: 16px 31px;
+}
+
+button:hover {
+  background-color: #A86F38;
+}
+
 
 
 /*----------------------------------
@@ -43,145 +66,176 @@ h1, h2, a {
     width: 100%;
 }
 
+.kontakt {
+  background-color:#FFE6D5;
+  border: none;
+	border-radius:28px;
+	display:inline-block;
+	cursor:pointer;
+	padding: 16px 31px;
+}
+
+.kontakt:hover {
+  background-color:#fff;
+
+}
+
 .logo {
   position: fixed;
-  margin: 0 5%;
   top: 60px;
   z-index: 100;
   width: 90%;
+  margin-left: 5%;
 }
 
 .logo .kontakt {
   float: right;
 }
 
-.first {
-  margin-top: 300px;
+.start{
+  height: 100vh;
+  position: relative;
 }
 
-.projekt {
-  margin-bottom: 150px;
+.start .background {
+  z-index: 1;
+  position: absolute;
+  right: 0;
+  height: 60vh;
+  margin-top: 10%;
 }
 
-.projekt img {
-    position: relative;
-    width: 60%;
-    float: right;
+.start .background-dog {
+  position: absolute;
+  z-index: 2;
+  bottom: 10%;
+  right: 15%;
+  height: 50vh;
+  margin-top: 10%;
 }
 
-.projekt h1, .projekt h2 {
-  width: 20%;
-  display: inline-block;
+.start-content {
+  position: relative;
+  padding-top: 40vh;
+  width: 30%;
+  margin-left: 5%;
 }
 
-.right img {
-  margin-left: 40%;
+.angebot,
+.manu {
+  position: relative;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
 }
-.right h2 {
-    margin-left: 40%;
-}
-
-.center img {
-  margin: 0 20%;
-}
-.center h2 {
-  margin-left: 40%;
-}
-
-.full img {
-  width: 100%;
-}
-.full h2 {
-  margin-left: 40%;
+.angebot h1,
+.angebot p,
+.manu h1,
+.manu p {
+  text-align: center;
 }
 
-.left img {
+.angebot-dog {
+    width: 40%;
+}
+
+.articlecontainer {
+  margin-top: 50px;
+}
+.tabscontainer{
+    padding-bottom: 0px;
+    margin: 0 6%;
+    display: flex;
+}
+
+.container25 {
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(136, 136, 136, 0.2);
+    border-radius: 20px;
+    overflow: hidden;
+    float: left;
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.full {
+    flex-basis: 100%;
+}
+.container25 h1, .container25 a {
+    font-size: 22px;
+    margin: 0px;
+    padding: 25px 35px;
+    color: #fff;
+    -webkit-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+}
+
+.container25 .one {
+  background: #D49F6C;
+}
+.container25 .two {
+  background: #B98144;
+}
+.container25 .three {
+  background: #5B4850;
+}
+
+.container25 p {
+    margin: 15px;
+    padding: 0 10px 15px;
+    border-bottom: 1px solid #b4b4b4;
+}
+
+.lauftext.chf {
+    font-size: 22px;
+    border-bottom: none;
+    padding-bottom: 0px;
+    margin-top: 0;
+}
+
+.lauftext.dauer {
+    font-size: 22px;
+    margin-top: 0;
+}
+
+.lauftext.distanz {
+    font-size: 15px;
+    margin-top: 0;
+}
+.small {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.manu {
+  margin-top: 90px;
+}
+.manu img {
+  width: 40%;
+}
+
+.imggalerie {
+  margin-top: 150px;
+}
+
+.imggalerie img {
+  width: 25%;
   float: left;
-}
-.left h2 {
-    margin-left: 40%;
+
 }
 
-#footer {
-    margin: 0 0 60px 5%;
-}
 
 /*----------------------------------
 responsive ipad
 -----------------------------------*/
 
 @media only screen and (max-width: 850px) {
-  .logo {
-    top: 40px;
-  }
 
-  .projekt img {
-      position: relative;
-      width: 80%;
-      float: right;
-  }
-  .first {
-    margin-top: 280px;
-  }
-  .projekt h1, .projekt h2 {
-    width: 39%;
-    display: inline-block;
-  }
-
-  .right img {
-    margin-left: 20%;
-  }
-  .right h2 {
-    margin-left: 20%;
-  }
-
-  .center img {
-    margin: 0 10%;
-  }
-  .center h2 {
-    margin-left: 20%;
-  }
-
-  .full img {
-    width: 100%;
-  }
-  .full h2 {
-    margin-left: 20%;
-  }
-
-  .left img {
-    float: left;
-  }
-  .left h2 {
-      margin-left: 20%;
-  }
 }
 
 @media only screen and (max-width: 500px) {
-  .logo {
-    top: 20px;
-  }
-  .logo img {
-    width: 150px;
-  }
-  .projekt {
-    margin-bottom: 50px;
-  }
-
-  .first {
-    margin-top: 250px;
-  }
-  .projekt h1, .projekt h2 {
-    width: 80%;
-    display: inline-block;
-  }
-
-  .right h2,   .right h1,
-  .center h2, .center h1,
-  .full h2, .full h1,
-  .left h2, .left h1  {
-      margin-left: 20%;
-  }
-
 
 }

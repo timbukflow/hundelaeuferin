@@ -1,13 +1,9 @@
 $(document).ready(function () {
 
-  $("a[href^='#']").click(function(e) {
-	e.preventDefault();
-
-	var position = $($(this).attr("href")).offset().top;
-
-	$("body, html").animate({
-		scrollTop: position
-	}, 1000, 'linear' );
+  $("#test").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#angebot").offset().top
+    }, 2000);
 });
 
 });
