@@ -303,8 +303,8 @@ responsive ipad
 }
 
 @media only screen and (max-width: 500px) {
-  h1 {font-size: 40px;}
-  p, a, button {font-size: 18px;}
+  h1 {font-size: 35px;}
+  p, a, button {font-size: 16px;}
   .logo {
     top: 30px;
   }
@@ -316,7 +316,7 @@ responsive ipad
     top: 15px;
   }
   .start .background {
-    top: 75px;
+    top: 50px;
   }
   .angebot, .manu, .articlecontainer {
     top: 100px;
