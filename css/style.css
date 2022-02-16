@@ -1,16 +1,3 @@
-/*
-    Theme Name: hundelaeuferin
-    Description: hundelaeuferin
-    Version: 1.0
-    Author: Ivo Schwizer
-    Tags: No Tags
-*/
-
-/*
-    Color Theme: hundelaeuferin
-    Main Color Brown: #5A4650;
-*/
-
 body {
   background-color: #FCF8F0;
   position:relative;
@@ -21,7 +8,7 @@ h1, h2, p, a, button {
     font-weight: 600;
     font-style: normal;
     font-family: 'Quicksand', sans-serif;
-    font-size: 19px;
+    font-size: 20px;
     line-height: 1.3;
     letter-spacing: 0.1px;
     text-align: left;
@@ -82,7 +69,7 @@ button:hover {
 }
 
 .logo {
-  position: fixed;
+  position: absolute;
   top: 60px;
   z-index: 100;
   width: 90%;
@@ -90,7 +77,8 @@ button:hover {
 }
 
 .logo .kontakt {
-  float: right;
+  right: 50px;
+  position: fixed;
 }
 
 .start {
@@ -215,7 +203,7 @@ button:hover {
     margin-top: 0;
 }
 .small {
-  margin-top: 50px;
+  margin: 50px 5% 0 5%;
   text-align: center;
   font-size: 15px;
 }
@@ -234,29 +222,104 @@ button:hover {
 .imggalerie img {
   width: 50%;
   float: left;
-
 }
+
+.footer {
+  margin: 50px 5%;
+  display: inline-block;
+}
+.footer a {
+  display: inline-block;
+}
+
 .togglelink {
-  text-align: center;
-  margin: 20px 5%;
   width: 90%;
   display: inline-block;
+}
+.togglelink p{
+  cursor: pointer;
+  margin: 0;
 }
 
 #impressum {
     display: none;
-    width: 80%;
-    margin: 10%;
+    width: 90%;
+    padding:  50px 0;
 }
 
 /*----------------------------------
 responsive ipad
 -----------------------------------*/
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1000px) {
+  .logo {
+    top: 40px;
+  }
+  .logo img {
+    width: 150px;
+  }
+  .logo .kontakt {
+    right: 20px;
+  }
+  h1 {font-size: 50px;}
+  p {font-size: 19px;}
+  .keypoints {font-size: 25px;}
+  button {margin-top: 10px;}
+  .start50 {
+    width: 100%;
+    min-height: 50vh;
+  }
+  .start .background {
+    min-height: 75vh;
+    background-position: center;
+  }
+  .home {
+    top: 75px;
+    padding-left: 5%;
+    width: 75%;
+  }
+  .angebot, .manu {
+    width: 80%;
+  }
+  .angebot, .manu, .articlecontainer {
+    top: 75px;
+    position: relative;
+  }
+}
 
+@media only screen and (max-width: 700px) {
+  .start .background {
+    top: 25px;
+  }
+  .tabscontainer {
+    display: inline-grid;
+  }
+  .imggalerie img {
+    width: 100%;
+  }
+  .manu img, .angebot-dog {
+    width: 75%;
+  }
 }
 
 @media only screen and (max-width: 500px) {
-
+  h1 {font-size: 45px;}
+  .logo {
+    top: 30px;
+  }
+  .logo .kontakt {
+    right: 15px;
+    top: 15px;
+  }
+  .home {
+    top: 75px;
+    width: 85%;
+  }
+  .start .background {
+    min-height: 60vh;
+    background-position: right;
+  }
+  .manu img {
+    width: 90%;
+  }
 }

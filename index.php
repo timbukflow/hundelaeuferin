@@ -15,7 +15,7 @@
     <section class="container">
       <div class="logo">
         <a href=""><img src="img/hundelaeufer-spazierdienst-teufen-st-gallen-logo.svg" alt="hundelaeufer-spazierdienst-teufen-st-gallen-logo" width="180px" height="auto"></a>
-        <a class="kontakt" href="tel:0794707535" >Manuela Albrecht: 079 470 75 35</a>
+        <a class="kontakt" href="tel:0794707535" >T 079 470 75 35</a>
       </div>
 
       <article class="start">
@@ -127,8 +127,17 @@
         alt="hundelaeufer-spazierdienst-teufen-st-gallen">
       </article>
 
-      <div class="togglelink" data-toggle="#impressum">AGB</div>
-          <div id="impressum">
+      <div class="footer">
+        <p>
+          <b>Hundeläuferin</b> <br>
+          Manuela Albrecht <br>
+          9053 Teufen AR <br>
+          <a href="tel:0794707535" >079 470 75 35</a><br>
+          <a href="mailto:nela.a@hotmail.ch">Mail</a>
+        </p>
+
+      <div class="togglelink" data-toggle="#impressum"><p>AGB</p></div>
+        <div id="impressum">
               <p>
               <b>Haftung</b><br>
               Der/die Hundebesitzer( nachfolgend HB genannt) bestätigt mit seiner/ihrer Unterschrift das er/sie über eine Privathaftpflichtversicherung mit genügender Deckung verfügt. Der/die HB haftet für folgende Schäden, bzw. für alle  daraus folgenden Kosten.
@@ -148,6 +157,7 @@
                   Bei Absage gebuchter Termine bis mindestens 24 Stunden vor Termin: keine Annullationskosten. Bei weniger als 24 Stunden wird der volle Preis verrechnet.
               </p>
           </div>
+      </div>
     </section>
 
     <script src="js/vendor/modernizr-3.6.0.min.js"></script>
