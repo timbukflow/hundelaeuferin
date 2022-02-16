@@ -16,7 +16,7 @@ body {
   position:relative;
 }
 
-h1, p, a, button {
+h1, h2, p, a, button {
     color: #5A4650;
     font-weight: 600;
     font-style: normal;
@@ -47,9 +47,10 @@ button {
   border: none;
 	border-radius:28px;
 	display:inline-block;
-	cursor:pointer;
+	cursor: pointer;
 	color:#ffffff;
 	padding: 16px 31px;
+  margin-top: 20px;
 }
 
 button:hover {
@@ -67,7 +68,7 @@ button:hover {
 }
 
 .kontakt {
-  background-color:#FFE6D5;
+  background-color:#f1e9df;
   border: none;
 	border-radius:28px;
 	display:inline-block;
@@ -92,33 +93,33 @@ button:hover {
   float: right;
 }
 
-.start{
+.start {
   height: 100vh;
   position: relative;
+  background-color: #f1e9df;
+}
+
+.start50 {
+  width: 50%;
+  float: left;
 }
 
 .start .background {
-  z-index: 1;
-  position: absolute;
-  right: 0;
-  height: 60vh;
-  margin-top: 10%;
-}
-
-.start .background-dog {
-  position: absolute;
-  z-index: 2;
-  bottom: 10%;
-  right: 15%;
-  height: 50vh;
-  margin-top: 10%;
-}
-
-.start-content {
   position: relative;
-  padding-top: 40vh;
-  width: 30%;
-  margin-left: 5%;
+  top: 0px;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  background-image: url("../img/hundelaeufer-spazierdienst-teufen-st-gallen-startseite.jpg");
+}
+
+.home {
+  position: relative;
+  top: 30vh;
+  padding: 5%;
+  padding-right: 10%;
+  width: 35%;
 }
 
 .angebot,
@@ -127,12 +128,21 @@ button:hover {
   width: 60%;
   margin: 0 auto;
   text-align: center;
+  margin-top: 80px;
 }
 .angebot h1,
 .angebot p,
 .manu h1,
 .manu p {
   text-align: center;
+}
+
+.angebot p {
+  margin-bottom: 50px;
+}
+
+.keypoints {
+  font-size: 30px;
 }
 
 .angebot-dog {
@@ -222,11 +232,22 @@ button:hover {
 }
 
 .imggalerie img {
-  width: 25%;
+  width: 50%;
   float: left;
 
 }
+.togglelink {
+  text-align: center;
+  margin: 20px 5%;
+  width: 90%;
+  display: inline-block;
+}
 
+#impressum {
+    display: none;
+    width: 80%;
+    margin: 10%;
+}
 
 /*----------------------------------
 responsive ipad
