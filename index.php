@@ -21,7 +21,7 @@
       <article class="start">
         <div class="start50 home">
           <h1>Spazierdienst</h1>
-          <p>Falls Sie nicht immer Zeit finden Ihren Hund die nötige Bewegung und Beschäftigung zu geben, sind Sie bei mir genau richtig. <strong>Das Angebot ist mit Abhol- und Bringservice. </strong></p>
+          <p>Falls Sie nicht immer Zeit finden Ihrem Hund die nötige Bewegung und Beschäftigung zu geben, sind Sie bei mir genau richtig. <strong>Das Angebot ist mit Abhol- und Bringservice. </strong></p>
           <button id="test" type="button" name="button">Angebot</button>
         </div>
         <div class="start50">
@@ -32,9 +32,9 @@
 
       <article class="angebot" id="angebot">
         <h1>Angebot</h1>
-        <p>Falls Sie nicht immer Zeit finden Ihren Hund die nötige Bewegung und Beschäftigung zu geben, sind Sie bei mir genau richtig. Ob Sie eine einmalige oder regelmäßige Dienstleistung benötigen. Ich sorge dafür, dass Ihr Hund Bedürfnis gerecht ausgelastet wird. Mein Programm wird individuell auf den Hund abgestimmt. Jede  Rasse und Hunde jedes Alters sind bei mir herzlich willkommen. Das Wohl der Hunde steht bei mir an erster Stelle.
+        <p>Falls Sie nicht immer Zeit finden Ihrem Hund die nötige Bewegung und Beschäftigung zu geben, sind Sie bei mir genau richtig. Ob Sie eine einmalige oder regelmäßige Dienstleistung benötigen. Ich sorge dafür, dass Ihr Hund Bedürfnis gerecht ausgelastet wird. Mein Programm wird individuell auf den Hund abgestimmt. Jede  Rasse und Hunde jedes Alters sind bei mir herzlich willkommen. Das Wohl der Hunde steht bei mir an erster Stelle.
         <br><br>
-        Mit meinen Schulungen bin ich auf dem neustem Stand und praktiziere weder mit Leinenruck oder Leinenzwick. Diese Methoden sind keinesfalls effektiv und nicht meine Art. Aus diesem Grund besuche ich regelmässig Kurse und Weiterbildungen.
+        Mit meinen Schulungen bin ich auf dem neustem Stand und praktiziere weder mit Leinenruck oder Leinenzwick. Diese Methoden sind keinesfalls effektiv und nicht meine Art.
         </p>
         <img class="angebot-dog" src="img/hundelaeufer-spazierdienst-teufen-st-gallen-dog.svg" alt="hundelaeufer-spazierdienst-teufen-st-gallen-dog">
         <p class="keypoints">
@@ -131,7 +131,7 @@
         <p>
           <b>Hundeläuferin</b> <br>
           Manuela Albrecht <br>
-          9053 Teufen AR <br>
+          9052 Niederteufen <br>
           <a href="tel:0794707535" >079 470 75 35</a><br>
           <a href="mailto:nela.a@hotmail.ch">Mail</a>
         </p>
