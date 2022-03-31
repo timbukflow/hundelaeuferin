@@ -107,7 +107,7 @@
         <p>Ausbildungen:
         <br><strong>2010 - 2015:</strong> SKN-Kurse und diverse Hundeschulen mit meinen eigenen Hunden.
         <br><strong>2021:</strong> FBA Ausbildung sowie HIK-1 bei Certodog
-        <br><strong>2022:</strong> Die sechs magischen Schlüssel bei Footstep Nicole Fröhlich
+        <br><strong>2022:</strong> 6 Erfolgs-Schlüssel, wie Sie und Ihr Hund noch mehr zum Dreamteam werden - Footstep Nicole Fröhlich
         <br><strong>Aktuell:</strong> Absolvierung FBA Praktikum in Bad Ragaz bei NF Dogshome als Bestandteil der Certodog - Anerkennung.
       </p>
       </article>
