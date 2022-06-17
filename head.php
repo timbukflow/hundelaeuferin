@@ -13,8 +13,8 @@
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
 
-<meta property="og:title" content="Spazierdienst">
-<meta property="og:site_name" content="Spazierdienst">
+<meta property="og:title" content="Hundeläuferin | Spazierdienst">
+<meta property="og:site_name" content="Hundeläuferin |  Spazierdienst">
 <meta property="og:type" content="Website">
 <meta property="og:description" content="Spazierdienst - Falls Sie nicht immer Zeit finden, Ihrem Hund die nötige Bewegung und Beschäftigung zu geben, sind Sie bei mir genau richtig.">
 <meta property="og:url" content="https://www.hundelaeuferin.ch/">
@@ -23,9 +23,9 @@
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="Spazierdienst">
+<meta property="og:image:alt" content="Hundeläuferin | Spazierdienst">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Spazierdienst">
+<meta name="twitter:title" content="Hundeläuferin | Spazierdienst">
 <meta name="twitter:description" content="Spazierdienst - Falls Sie nicht immer Zeit finden, Ihrem Hund die nötige Bewegung und Beschäftigung zu geben, sind Sie bei mir genau richtig.">
 <meta name="twitter:image" content="https://www.hundelaeuferin.ch/img/share-img.jpg">
 <meta name="twitter:image:alt" content="Hundeläuferin - Spazierdienst">
@@ -53,3 +53,13 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7Y9T48WFDH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7Y9T48WFDH');
+</script>

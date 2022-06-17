@@ -6,8 +6,8 @@
 <!--<![endif]-->
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place#">
     <meta charset="utf-8">
-    <title>Spazierdienst</title>
-    <meta name="description" content="Spazierdienst">
+    <title>Hundel&auml;uferin | Spazierdienst </title>
+    <meta name="description" content="Hundel&auml;uferin | Spazierdienst - Falls Sie nicht immer Zeit finden, Ihrem Hund die nötige Bewegung und Beschäftigung zu geben, sind Sie bei mir genau richtig.">
     <?php include 'head.php'; ?>
 </head>
 
