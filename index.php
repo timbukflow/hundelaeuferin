@@ -56,7 +56,7 @@
                       Dauer 75 min
                   </p>
                   <p class="lauftext chf">
-                      Kosten 35.- CHF
+                      Kosten 45.- CHF
                   </p>
               </div>
               <div class="container25">
@@ -71,7 +71,7 @@
                       Dauer 75 min
                   </p>
                   <p class="lauftext chf">
-                      Kosten 30.- CHF
+                      Kosten 40.- CHF
                   </p>
               </div>
               <div class="container25">
@@ -86,7 +86,7 @@
                       Dauer 30 - 45 min
                   </p>
                   <p class="lauftext chf">
-                      Kosten 25.- CHF
+                      Kosten 35.- CHF
                   </p>
               </div>
           </div>
