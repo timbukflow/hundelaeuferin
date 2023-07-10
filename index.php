@@ -1,9 +1,5 @@
 <!DOCTYPE html>
-<!--[if IE 7]>	 <html class="no-js lt-ie9 lt-ie8" lang="de"><![endif]-->
-<!--[if IE 8]>	 <html class="no-js lt-ie9" lang="de"><![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js" lang="de">
-<!--<![endif]-->
+<html lang="de">
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# place: http://ogp.me/ns/place#">
     <meta charset="utf-8">
     <title>Hundel&auml;uferin | Spazierdienst </title>
@@ -22,7 +18,7 @@
         <div class="start50 home">
           <h1>Spazierdienst</h1>
           <p>Falls Sie nicht immer Zeit finden Ihrem Hund die nötige Bewegung und Beschäftigung zu geben, sind Sie bei mir genau richtig. <strong>Das Angebot ist mit Abhol- und Bringservice. </strong></p>
-          <button id="test" type="button" name="button">Angebot</button>
+          <button class="goto" type="button" name="button">Angebot</button>
         </div>
         <div class="start50">
           <div class="background" alt="hundelaeufer-spazierdienst-teufen-st-gallen-hintergrund"></div>
@@ -135,7 +131,7 @@
           <a href="mailto:nela.a@hotmail.ch">Mail</a>
         </p>
 
-      <div class="togglelink" data-toggle="#impressum"><p>AGB</p></div>
+      <div class="impressum" data-target="#impressum"><p>AGB</p></div>
         <div id="impressum">
               <p>
               <b>Haftung</b><br>
@@ -164,5 +160,6 @@
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
+    <?php require_once 'googleanalytics.php'; ?>
 </body>
 </html>

@@ -247,6 +247,66 @@ button:hover {
     padding:  50px 0;
 }
 
+
+/*----------------------------------
+    Cookiebanner
+-----------------------------------*/
+
+#cookiebanner {
+  position: fixed;
+  bottom: -300px;
+  left: 40px;
+  border-radius: 10px;
+  width: 350px;
+  background-color: white;
+  padding: 15px;
+  z-index: 9999;
+  transition: bottom 0.5s cubic-bezier(0.2, 0.8, 0.3, 2);
+}
+
+#cookiebanner p {
+  color: #5A4650;
+  margin: 0;
+}
+
+#cookiebanner.visible {
+  bottom: 25px;
+}
+
+#cookiebanner button {
+  font-size: 20px;
+  letter-spacing: 0;
+  text-decoration: none; 
+}
+
+#declineBtn, #acceptBtn {
+  border-radius: 30px;
+  margin-top: 20px;
+}
+
+#declineBtn {
+  padding: 10px 20px;
+  background:none;
+  border: 1px solid #D49F6C; 
+  color: #D49F6C;
+  opacity: 0.5;
+}
+
+#acceptBtn {
+  border: none;
+  padding: 10px 40px;
+  background: #D49F6C;
+  color: white;
+  margin-right: 5px;
+}
+
+#acceptBtn:hover,
+#declineBtn:hover {
+  transition: opacity 0.5s ease-in-out;
+  opacity: 0.75; ;
+}
+
+
 /*----------------------------------
 responsive ipad
 -----------------------------------*/
@@ -332,4 +392,7 @@ responsive ipad
   .manu img {
     width: 90%;
   }
+
+  #cookiebanner {width: calc(100% - 70px); left: 20px;}
+  #cookiebanner.visible {bottom: 60px;}
 }
