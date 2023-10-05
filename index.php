@@ -104,6 +104,8 @@
         <br><strong>2010 - 2015:</strong> SKN-Kurse und diverse Hundeschulen mit meinen eigenen Hunden.
         <br><strong>2021:</strong> FBA Ausbildung sowie HIK-1 bei Certodog
         <br><strong>2022:</strong> 6 Erfolgs-Schlüssel, wie Sie und Ihr Hund noch mehr zum Dreamteam werden - Footstep Nicole Fröhlich
+        <br><strong>Juni 2023:</strong> Emotionen bei Hunden erkennen und erleben - Nicole Burri Tierpsychologin und Sandra Götte Hundezentrum Bächlihof
+        <br><strong>August 2023:</strong> Beobachtungsseminar zum Sozialverhalten von Hunden in einem Tierheim mit Grossgruppenhaltung - Sonja Doll Hadorn
       </p>
       </article>
 
@@ -129,6 +131,12 @@
           9052 Niederteufen <br>
           <a href="tel:0794707535" >079 470 75 35</a><br>
           <a href="mailto:nela.a@hotmail.ch">Mail</a>
+        </p>
+
+        <p>
+          <b>Partnerschaft:</b> <br>
+          Die andere Hundeschule, St.Gallen<br>
+          <a href="https://die-andere-hundeschule.ch">www.die-andere-hundeschule.ch</a>
         </p>
 
       <div class="impressum" data-target="#impressum"><p>AGB</p></div>
