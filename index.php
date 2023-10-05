@@ -134,7 +134,7 @@
         </p>
 
         <p>
-          <b>Partnerschaft:</b> <br>
+          <b>Links:</b> <br>
           Die andere Hundeschule, St.Gallen<br>
           <a href="https://die-andere-hundeschule.ch" target=”_blank”>www.die-andere-hundeschule.ch</a>
         </p>
