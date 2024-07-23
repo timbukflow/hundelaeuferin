@@ -33,13 +33,18 @@
         Mit meinen Schulungen bin ich auf dem neustem Stand und praktiziere weder mit Leinenruck oder Leinenzwick. Diese Methoden sind keinesfalls effektiv und nicht meine Art.
         </p>
         <img class="angebot-dog" src="img/hundelaeufer-spazierdienst-teufen-st-gallen-dog.svg" alt="hundelaeufer-spazierdienst-teufen-st-gallen-dog">
+        <!-- 
         <p class="keypoints">
           motivierend, dynamisch, ausgleichend, Spass, bedürfnisgerecht, Individuell, Nasen/Kopfarbeit, für Welpen bis Senior
-        </p>
+        </p> 
+        -->
+        <p class="keypoints">
+            Vielen Dank für Ihr Interesse an meinem Angebot. Leider kann ich zurzeit keine weiteren Hunde aufnehmen.
+          </p>
       </article>
 
       <article class="articlecontainer">
-          <div class="tabscontainer">
+          <div class="tabscontainer blure">
               <div class="container25">
                   <h1 class="one">Spaziergang <strong>einzel </strong></h1>
                   <p class="lauftext full">

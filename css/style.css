@@ -44,6 +44,9 @@ button:hover {
   background-color: #A86F38;
 }
 
+.blure {
+  filter: blur(4px);
+}
 
 
 /*----------------------------------
